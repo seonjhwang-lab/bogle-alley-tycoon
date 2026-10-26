@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#181425" />
+  <title>보글보글 골목 타이쿤</title>
+  <style>
+    /* 풀블리드: 여백·스크롤 0, 캔버스 정렬은 Phaser(Scale.FIT + CENTER_BOTH)에게만 맡긴다.
+       (flex 가운데 정렬과 Phaser 여백이 겹치면 캔버스가 오른쪽으로 두 번 밀린다 — v2.0 버그 원인) */
+    html, body { margin: 0; padding: 0; width: 100vw; height: 100%; height: 100dvh; background: #181425; overflow: hidden;
+      touch-action: none; -webkit-user-select: none; user-select: none; overscroll-behavior: none; }
+    #game { position: fixed; left: 0; top: 0; margin: 0; padding: 0; width: 100vw; height: 100%; height: 100dvh; overflow: hidden; }
+    canvas { display: block; image-rendering: pixelated; image-rendering: crisp-edges; }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

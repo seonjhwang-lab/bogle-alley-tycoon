@@ -1,0 +1,53 @@
+{
+ "frames": {
+  "0": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 266
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 266
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 266
+   },
+   "duration": 1000
+  }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.18.5",
+  "image": "kitchen_bg.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 240,
+   "h": 266
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "kitchen_bg",
+    "from": 0,
+    "to": 0,
+    "direction": "forward",
+    "color": "#000000ff"
+   }
+  ],
+  "layers": [
+   {
+    "name": "art",
+    "opacity": 255,
+    "blendMode": "normal"
+   }
+  ],
+  "slices": []
+ }
+}
